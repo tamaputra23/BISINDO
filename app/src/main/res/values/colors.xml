@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#000000</color>
+    <color name="angka">#A0D1E2</color>
+    <color name="abjad">#7499F1</color>
+    <color name="hari">#01A9B4</color>
+    <color name="warna">#457B9D</color>
+    <color name="buah">#67A9C9</color>
+    <color name="perkenalan">#7BC2B7</color>
+    <color name="teman">#ED7D2B</color>
+    <color name="Keluarga">#ED9768</color>
+    <color name="waktu">#ECA843</color>
+    <color name="transport">#ED8A4A</color>
+    <color name="satwa">#74C69D</color>
+    <color name="pekerjaan">#8EDBA4</color>
+    <color name="pakaian">#7BC27E</color>
+    <color name="perasaan">#74C69D</color>
+    <color name="negara">#9FD09C</color>
+    <color name="kota">#73A179</color>
+</resources>

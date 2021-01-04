@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "883409376306",
+    "firebase_url": "https://bisindo-5ffbd.firebaseio.com",
+    "project_id": "bisindo-5ffbd",
+    "storage_bucket": "bisindo-5ffbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883409376306:android:43c28902bdfc7d97afd82b",
+        "android_client_info": {
+          "package_name": "com.example.bisindo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883409376306-o0em8k4lft8qkt16te57c9qbbhfuk5km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdzJXVcuns7VyyPSqsaTyB2CCMYa63gKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883409376306-o0em8k4lft8qkt16te57c9qbbhfuk5km.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

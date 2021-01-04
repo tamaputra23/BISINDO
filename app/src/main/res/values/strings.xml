@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BISINDO</string>
+    <string name="title_activity_perkenalan">BISINDO</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCaCwYzBWnIXKbYios2uljilZiiL5XwoDI</string>
+    <string name="pengetahuuan">
+        \t\tBahasa isyarat adalah salah satu media komunikasi utama bagi para penderita tuna-rungu di seluruh dunia. Pengguna bahasa isyarat di seluruh dunia cukup banyak. Setiap negara bahkan setiap daerah mempunyai bahasa isyarat masing-masing yang berbeda. Bahasa isyarat pada dasarnya mempunyai sifat dinamis, karena menggunakan gerakan atau perubahan gestur tubuh sebagai ganti suara tutur untuk berkomunikasi.
+        \n\n\t\tDalam ranah penelitian sistem pengenalan bahasa isyarat dengan menggunakan komputer, para peneliti mengelompokkan bahasa isyarat menjadi dua kelompok berdasarkan sifat masukan sistem, yaitu bahasa isyarat statis dan bahasa isyarat dinamis. Bahasa isyarat statis digunakan pada sistem pengenalan bahasa isyarat yang masukannya bersifat statis atau diam, yang berupa citra atau foto. Karena masukannya adalah citra atau foto bersifat statis maka, maka bahasa isyarat statis hanya dapat digunakan untuk mengenal isyarat abjad saja. Jadi untuk membentuk suatu kata atau kalimat masih belum bisa.
+        \n\n\t\tSedangkan yang dimaksud dengan bahasa isyarat dinamis adalah sistem pengenal bahasa isyarat yang menggunakan masukan yang bersifat dinamis yang berupa gerakan gestur peraga bahasa isyarat dan umumnya dilakukan secara waktu nyata. Gestur adalah suatu bentuk bahasa tubuh atau komunikasi non-verbal. Gestur yang umum digunakan merupakan kombinasi atas bentuk/pola tangan, orientasi dan gerakan tangan, ekspresi muka, dan pola bibir.
+        \n\n\t\tGestur tangan sendiri dapat diklasifikasikan menjadi beberapa kategori, seperti gestur untuk percakapan, gestur kontrol, gestur manipulatif, dan gestur untuk komunikasi. Salah satu bagian dari bahasa isyarat adalah bahasa isyarat yang diperagakan hanya dengan menggunakan perubahan pose gesture tangan terutama pose dari jari-jari tangan yang disebut dengan bahasa isyarat finger spelling.
+        \n\n\t\tUntuk di Indonesian terdapat dua bahasa isyarat yaitu Bahasa Isyarat Indonsia (BISINDO) yang pengembangannya didukung oleh salah satu lembaga donatur dari Jepang yang melibatkan Chinese University of Hong Kong dan Universitas Indonesia dan Sistem Isyarat Bahasa Indonesia (SIBI) merupakan sistem isyarat (bukan bahasa isyarat) yang dibuat oleh orang-orang dengar tanpa melibatkan orang tuli dalam pendidikan pendidikan luar biasa.
+        \n\n\t\tDalam perkembangannya SIBI tidak dapat digunakan dalam komunikasi sehari-hari penyandang disabilitas tunarungu (Tuli) karena penerapan kosakata yang tidak sesuai dengan aspirasi dan nurani kaum tunarungu (Tuli), terlebih penerapan bahasa yang terlalu baku dengan tata bahasa kalimat bahasa Indonesia yang membuat kaum tunarungu (Tuli) kesulitan berkomunikasi.
+        \n\n\t\tBerbeda dengan BISINDO yang belakangan ini sedang diperjuangkan oleh Gerakan Kesejahteraan Tunarungu Indonesia (GERKATIN). BISINDO merupakan bahasa ibu dan bahasa isyarat alami budaya asli Indonesia yang dengan mudah dapat digunakan dalam pergaulan isyarat kaum tunarungu sehari-hari.
+        \n\n\t\tBISINDO dapat dikatakan bahasa alami karena BISINDO dibuat oleh penyandang disabilitas tunarungu (Tuli) itu sendiri, bahasa isyaratnya terkonsep, classifier, dan lebih instan dalam berkomunikasi ataupun menerjemahkan. Tetapi kurangnya BISINDO tidak berimbuhan dan tidak meggunakan Subjek, Predikat, Objek, Keterangan (SPOK) dengan baik. BISINDO merupakan bahasa isyarat alami budaya asli Indonesia yang dengan mudah dapat di gunakan dalam pergaulan isyarat kaum disabilitas tunarungu (Tuli) sehari hari. Setiap penyandang disabilitas Tuli pun memiliki bahasa ibu yang otentik, serupa dengan bahasa daerah yang berkembang di setiap wilayah Indonesia.
+
+    </string>
+</resources>

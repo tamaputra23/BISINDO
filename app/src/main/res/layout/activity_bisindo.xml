@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BisindoActivity"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:background="@drawable/bg_bisindoheader"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="bisindo"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout"
+                    android:layout_width="330dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="-10dp"
+                    android:onClick="perkenalan"
+                    android:background="@drawable/strokeonly"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_gravity="center_horizontal">
+
+                    <ImageView
+                        android:id="@+id/imagView1"
+                        android:layout_width="320dp"
+                        android:layout_height="140dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/handshakeee_01" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="Perkenalan"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout2"
+                    android:layout_width="330dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:onClick="level1"
+                    android:background="@drawable/strokeonly"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+                    <ImageView
+                        android:id="@+id/imagView2"
+                        android:layout_width="320dp"
+                        android:layout_height="140dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/family_01" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="Level 1"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout3"
+                    android:layout_width="330dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:onClick="level2"
+                    android:background="@drawable/strokeonly"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="140dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/fruitss_01" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="Level 2"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="330dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:onClick="level3"
+                    android:background="@drawable/strokeonly"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/relativeLayout3">
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="140dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/pekerjaan_01" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="Level 3"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>
